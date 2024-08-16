@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+}
+
+.carrucel {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+    background-color: cadetblue;
+    height: 500px;
+    margin: 5px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.img-container {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 200ms ease-in-out;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+footer div {
+    margin: 0 10px;
+}
