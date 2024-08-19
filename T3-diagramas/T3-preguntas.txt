@@ -1,0 +1,8 @@
+- Donde debería guardar mi archivo game.js para poder utilizarlo desde el documento HTML?
+
+- En mi archivo game.js que sintaxis debería usar para crear una variable que vincule al elemento HTML con id "game-area"?
+
+Respuestas:
+1) Deberia guardarlo al mismo nivel de jerarquia en el que esta el documento HTML.
+2) Deberia usar `const div = document.getElementById('game-area');`
+3) Deberia usar `const boton = document.getElementsByTagName('button')[0];` para seleccionar el primer elemento con etiqueta `button`. Luego hacemos `boton.classList.add('.btn');`
